@@ -1,3 +1,5 @@
+// interfaces/index.ts
+
 export interface PropertyListingProps {
   propertyName: string;
   rate: number;
@@ -17,3 +19,4 @@ export interface PropertyLocationProps {
 export interface PropertListing {
   listings: PropertyListingProps[];
 }
+
